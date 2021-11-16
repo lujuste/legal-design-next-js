@@ -1,0 +1,116 @@
+html {
+  overflow-x: hidden;
+}
+
+div.css-4yauiz {
+  height: 427px !important;
+}
+
+div.swiper-button-next {
+  right: 65px;
+}
+
+div.swiper-button-prev {
+  left: 65px;
+}
+
+div.swiper.swiper-testimonials-initialized.swiper-testimonials-horizontal.swiper-testimonials-pointer-events
+  .swiper-button-prev:after,
+div.swiper.swiper-testimonials-initialized.swiper-testimonials-horizontal.swiper-testimonials-pointer-events
+  .swiper-button-next:after {
+  color: black;
+}
+
+div.swiper.swiper-testimonials-initialized {
+  .swiper-button-next {
+    right: 200px;
+  }
+
+  .swiper-button-prev {
+    left: 200px;
+  }
+
+  .swiper-pagination-bullets {
+    bottom: 34px;
+  }
+}
+
+@media (max-width: 600px) {
+  .swiper-button-prev:after,
+  .swiper-button-next:after {
+    display: none;
+  }
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  color: #f7f5f6;
+}
+
+.div.swiper-pagination
+  swiper-pagination-clickable
+  swiper-pagination-bullets
+  swiper-pagination-horizontal {
+  margin-bottom: 2rem;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #cc3366 !important;
+}
+
+svg#Layer_1.chakra-icon.css-176e32y {
+  @media screen and (min-width: 48em) {
+    width: 170%;
+    margin-left: 101px;
+  }
+}
+
+div.css-34q6yt {
+  @media screen and (min-width: 48em) {
+    max-width: 240px;
+    height: 360px;
+    margin-top: 3rem;
+  }
+}
+
+#elemento-gray {
+  animation: floatAnim 6s ease-in-out infinite;
+  z-index: 1999999999999;
+}
+#elemento-pink {
+  animation: floatAnim2 5s ease-in-out infinite;
+  z-index: 1999999999999;
+}
+
+@keyframes floatAnim {
+  0% {
+    transform: translateY(-15px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
+@keyframes floatAnim2 {
+  0% {
+    transform: translateY(-2px);
+  }
+  50% {
+    transform: translateY(25px);
+  }
+  100% {
+    transform: translateY(-2px);
+  }
+}
+
+.css-1eao879 {
+  height: 411px !important;
+}
+
+@media (max-width: 500px) {
+  div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 23px !important;
+  }
+}
